@@ -1,0 +1,87 @@
+name: Silta
+recipe: drupal8
+
+config:
+  webroot: web
+  via: nginx
+  php: '7.2'
+  database: mariadb:10.2
+  #xdebug: true
+
+tooling:
+  codeception:
+    service: appserver
+    description: Run codeception
+    cmd:
+      - ./vendor/bin/codecept
+      - "--env=lando"
+  npm:
+    description: Runs npm commands
+    service: node
+
+services:
+  appserver:
+    overrides:
+      environment:
+        HASH_SALT: notsosecurehash
+  # chrome:
+  #   type: compose
+  #   services:
+  #     image: selenium/standalone-chrome
+  #     user: root
+  #     ports:
+  #       - "4444:4444"
+  #     volumes:
+  #       - /dev/shm:/dev/shm
+  #     command: /opt/bin/entry_point.sh
+  # elasticsearch:
+  #   type: compose
+  #   services:
+  #     image: blacktop/elasticsearch:7
+  #     command: /elastic-entrypoint.sh elasticsearch
+  #     ports: 
+  #       - "9200:9200"
+  #   # Install ES requirement JDK here & set JAVA_HOME at `.lando/.env`
+  #   build_as_root:
+  #     - apk --no-cache add openjdk11
+  #   # Install `analysis-icu` plugin after ES service boots up
+  #   run_as_root:
+  #     - elasticsearch-plugin install analysis-icu
+  # kibana:
+  #   type: compose
+  #   services:
+  #     image: blacktop/kibana:7
+  #     command: /docker-entrypoint.sh kibana
+  #     ports:
+  #       - "5601:5601"
+  #     depends_on:
+  #       - elasticsearch
+  mailhog:
+    type: mailhog
+    hogfrom:
+      - appserver
+  node:
+    type: node
+    build:
+      - npm install
+
+proxy:
+  # elasticsearch:
+  #   - es.lndo.site:9200
+  # kibana:
+  #   - kibana.lndo.site:5601
+  mailhog:
+    - mail.lndo.site
+
+events:
+  pre-start:
+    - appserver: composer install
+  # Clear caches after a database import
+  post-db-import:
+    - appserver: cd $LANDO_WEBROOT && drush cr -y
+
+env_file:
+  - .lando/.env
+
+# Lando version at the time of last update of .lando.yml
+version: v3.0.0-rc.19
