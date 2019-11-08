@@ -25,7 +25,7 @@
         "drupal/core": "^8.7.0",
         "drupal/simplei": "^1.0",
         "drupal/warden": "*",
-        "drush/drush": "^9.0.0",
+        "drush/drush": "^10.0.2",
         "machbarmacher/gdpr-dump": "dev-master",
         "vlucas/phpdotenv": "^3.3",
         "webflo/drupal-finder": "^1.0.0",
