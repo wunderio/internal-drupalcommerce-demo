@@ -172,16 +172,16 @@
         },
         {
             "name": "commerceguys/addressing",
-            "version": "v1.0.5",
+            "version": "v1.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/commerceguys/addressing.git",
-                "reference": "2d048bfdb3b79f2d87f5d5b078769c059eaa3eb1"
+                "reference": "8aac9af11d38c1abe04a5e4a252d5a6740b2b69a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/commerceguys/addressing/zipball/2d048bfdb3b79f2d87f5d5b078769c059eaa3eb1",
-                "reference": "2d048bfdb3b79f2d87f5d5b078769c059eaa3eb1",
+                "url": "https://api.github.com/repos/commerceguys/addressing/zipball/8aac9af11d38c1abe04a5e4a252d5a6740b2b69a",
+                "reference": "8aac9af11d38c1abe04a5e4a252d5a6740b2b69a",
                 "shasum": ""
             },
             "require": {
@@ -227,20 +227,20 @@
                 "localization",
                 "postal"
             ],
-            "time": "2019-06-27T10:43:27+00:00"
+            "time": "2019-10-21T14:31:17+00:00"
         },
         {
             "name": "commerceguys/intl",
-            "version": "v1.0.4",
+            "version": "v1.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/commerceguys/intl.git",
-                "reference": "0fc176165f45d9f3dd9af50a05293c3fa99e4691"
+                "reference": "6a8c7a8da189d51856b642a61aeb8ae5114fec6c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/commerceguys/intl/zipball/0fc176165f45d9f3dd9af50a05293c3fa99e4691",
-                "reference": "0fc176165f45d9f3dd9af50a05293c3fa99e4691",
+                "url": "https://api.github.com/repos/commerceguys/intl/zipball/6a8c7a8da189d51856b642a61aeb8ae5114fec6c",
+                "reference": "6a8c7a8da189d51856b642a61aeb8ae5114fec6c",
                 "shasum": ""
             },
             "require": {
@@ -271,7 +271,7 @@
                 }
             ],
             "description": "Internationalization library powered by CLDR data.",
-            "time": "2019-03-31T23:36:43+00:00"
+            "time": "2019-10-22T10:40:46+00:00"
         },
         {
             "name": "composer/installers",
@@ -1223,6 +1223,7 @@
             ],
             "description": "Promoting the interoperability of container objects (DIC, SL, etc.)",
             "homepage": "https://github.com/container-interop/container-interop",
+            "abandoned": "psr/container",
             "time": "2017-02-14T19:40:03+00:00"
         },
         {
@@ -1506,16 +1507,16 @@
         },
         {
             "name": "doctrine/collections",
-            "version": "v1.6.2",
+            "version": "1.6.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/collections.git",
-                "reference": "c5e0bc17b1620e97c968ac409acbff28b8b850be"
+                "reference": "6b1e4b2b66f6d6e49983cebfe23a21b7ccc5b0d7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/collections/zipball/c5e0bc17b1620e97c968ac409acbff28b8b850be",
-                "reference": "c5e0bc17b1620e97c968ac409acbff28b8b850be",
+                "url": "https://api.github.com/repos/doctrine/collections/zipball/6b1e4b2b66f6d6e49983cebfe23a21b7ccc5b0d7",
+                "reference": "6b1e4b2b66f6d6e49983cebfe23a21b7ccc5b0d7",
                 "shasum": ""
             },
             "require": {
@@ -1544,16 +1545,16 @@
             ],
             "authors": [
                 {
+                    "name": "Guilherme Blanco",
+                    "email": "guilhermeblanco@gmail.com"
+                },
+                {
                     "name": "Roman Borschel",
                     "email": "roman@code-factory.org"
                 },
                 {
                     "name": "Benjamin Eberlei",
                     "email": "kontakt@beberlei.de"
-                },
-                {
-                    "name": "Guilherme Blanco",
-                    "email": "guilhermeblanco@gmail.com"
                 },
                 {
                     "name": "Jonathan Wage",
@@ -1572,7 +1573,7 @@
                 "iterators",
                 "php"
             ],
-            "time": "2019-06-09T13:48:14+00:00"
+            "time": "2019-11-13T13:07:11+00:00"
         },
         {
             "name": "doctrine/common",
@@ -2128,36 +2129,41 @@
         },
         {
             "name": "drupal/commerce",
-            "version": "2.13.0",
+            "version": "2.16.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/commerce.git",
-                "reference": "8.x-2.13"
+                "reference": "8.x-2.16"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/commerce-8.x-2.13.zip",
-                "reference": "8.x-2.13",
-                "shasum": "821236987a331a7d8031e8c14b64a72a7a6722d5"
+                "url": "https://ftp.drupal.org/files/projects/commerce-8.x-2.16.zip",
+                "reference": "8.x-2.16",
+                "shasum": "9c3297f4f18d1276bd76d2129aac3b4476dc5db5"
             },
             "require": {
                 "commerceguys/intl": "^1.0.0",
-                "drupal/address": "^1.6",
-                "drupal/core": "^8.6",
+                "drupal/address": "^1.7",
+                "drupal/core": "^8.7",
                 "drupal/entity": "^1.0-rc2",
                 "drupal/entity_reference_revisions": "~1.0",
                 "drupal/inline_entity_form": "^1.0-rc1",
-                "drupal/profile": "~1.0",
-                "drupal/state_machine": "^1.0-rc1"
+                "drupal/profile": "^1.0",
+                "drupal/state_machine": "^1.0-rc1",
+                "drupal/token": "^1.0",
+                "ext-bcmath": "*",
+                "php": ">=7.0.8"
             },
             "require-dev": {
                 "drupal/commerce_cart": "*",
+                "drupal/commerce_number_pattern": "*",
                 "drupal/commerce_order": "*",
                 "drupal/commerce_payment": "*",
                 "drupal/commerce_price": "*",
                 "drupal/commerce_product": "*",
                 "drupal/commerce_store": "*",
                 "drupal/entity_reference_revisions": "*",
+                "drupal/mailsystem": "^4.1",
                 "drupal/profile": "*",
                 "drupal/state_machine": "*"
             },
@@ -2167,8 +2173,8 @@
                     "dev-2.x": "2.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-2.13",
-                    "datestamp": "1554337944",
+                    "version": "8.x-2.16",
+                    "datestamp": "1576074180",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -2558,17 +2564,17 @@
         },
         {
             "name": "drupal/entity_reference_revisions",
-            "version": "1.6.0",
+            "version": "1.7.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/entity_reference_revisions.git",
-                "reference": "8.x-1.6"
+                "reference": "8.x-1.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/entity_reference_revisions-8.x-1.6.zip",
-                "reference": "8.x-1.6",
-                "shasum": "82d515de04d3a75fb677ed82241a6aff3f54ab47"
+                "url": "https://ftp.drupal.org/files/projects/entity_reference_revisions-8.x-1.7.zip",
+                "reference": "8.x-1.7",
+                "shasum": "4e3b849b0d984cd3c0a4330c9aa4cb16bf1f79f6"
             },
             "require": {
                 "drupal/core": "~8.0"
@@ -2582,8 +2588,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.6",
-                    "datestamp": "1539588781",
+                    "version": "8.x-1.7",
+                    "datestamp": "1570284187",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -2620,20 +2626,20 @@
         },
         {
             "name": "drupal/inline_entity_form",
-            "version": "1.0.0-rc1",
+            "version": "1.0.0-rc2",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/inline_entity_form.git",
-                "reference": "8.x-1.0-rc1"
+                "reference": "8.x-1.0-rc2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/inline_entity_form-8.x-1.0-rc1.zip",
-                "reference": "8.x-1.0-rc1",
-                "shasum": "898789fb6a0662fc2572b87f8d0654a0241473f9"
+                "url": "https://ftp.drupal.org/files/projects/inline_entity_form-8.x-1.0-rc2.zip",
+                "reference": "8.x-1.0-rc2",
+                "shasum": "f56c071ef499c20f0b1d63fa1ea30f06248ee0a4"
             },
             "require": {
-                "drupal/core": "~8.0"
+                "drupal/core": "^8.5"
             },
             "require-dev": {
                 "drupal/entity_reference_revisions": "*"
@@ -2644,8 +2650,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.0-rc1",
-                    "datestamp": "1527030784",
+                    "version": "8.x-1.0-rc2",
+                    "datestamp": "1568446684",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "RC releases are not covered by Drupal security advisories."
@@ -2694,24 +2700,24 @@
         },
         {
             "name": "drupal/profile",
-            "version": "1.0.0-rc6",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/profile.git",
-                "reference": "8.x-1.0-rc6"
+                "reference": "8.x-1.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/profile-8.x-1.0-rc6.zip",
-                "reference": "8.x-1.0-rc6",
-                "shasum": "fa6328aa1db0fc4d72245dd53162ab7bb8b3ebfc"
+                "url": "https://ftp.drupal.org/files/projects/profile-8.x-1.0.zip",
+                "reference": "8.x-1.0",
+                "shasum": "45f5ad7f274d5e1e7ec8b72d98f9a20136073112"
             },
             "require": {
                 "drupal/core": "^8.6",
                 "drupal/entity": "^1.0-rc2"
             },
             "require-dev": {
-                "drupal/token": "1.0"
+                "drupal/token": "^1.0"
             },
             "type": "drupal-module",
             "extra": {
@@ -2719,11 +2725,11 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.0-rc6",
-                    "datestamp": "1562966885",
+                    "version": "8.x-1.0",
+                    "datestamp": "1567007888",
                     "security-coverage": {
-                        "status": "not-covered",
-                        "message": "RC releases are not covered by Drupal security advisories."
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
                     }
                 }
             },
@@ -2910,6 +2916,73 @@
             }
         },
         {
+            "name": "drupal/token",
+            "version": "1.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/token.git",
+                "reference": "8.x-1.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/token-8.x-1.5.zip",
+                "reference": "8.x-1.5",
+                "shasum": "6382a7e1aabbd8246f1117a26bf4916d285b401d"
+            },
+            "require": {
+                "drupal/core": "^8.5"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.5",
+                    "datestamp": "1537557481",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Berdir",
+                    "homepage": "https://www.drupal.org/user/214652"
+                },
+                {
+                    "name": "Dave Reid",
+                    "homepage": "https://www.drupal.org/user/53892"
+                },
+                {
+                    "name": "eaton",
+                    "homepage": "https://www.drupal.org/user/16496"
+                },
+                {
+                    "name": "fago",
+                    "homepage": "https://www.drupal.org/user/16747"
+                },
+                {
+                    "name": "greggles",
+                    "homepage": "https://www.drupal.org/user/36762"
+                },
+                {
+                    "name": "mikeryan",
+                    "homepage": "https://www.drupal.org/user/4420"
+                }
+            ],
+            "description": "Provides a user interface for the Token API and some missing core tokens.",
+            "homepage": "https://www.drupal.org/project/token",
+            "support": {
+                "source": "https://git.drupalcode.org/project/token"
+            }
+        },
+        {
             "name": "drupal/warden",
             "version": "1.1.0",
             "source": {
@@ -2934,7 +3007,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.1",
-                    "datestamp": "1498079942",
+                    "datestamp": "1574284690",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -3160,14 +3233,14 @@
             "authors": [
                 {
                     "name": "Nicholas Humfrey",
-                    "role": "Developer",
                     "email": "njh@aelius.com",
-                    "homepage": "http://www.aelius.com/njh/"
+                    "homepage": "http://www.aelius.com/njh/",
+                    "role": "Developer"
                 },
                 {
                     "name": "Alexey Zakhlestin",
-                    "role": "Developer",
-                    "email": "indeyets@gmail.com"
+                    "email": "indeyets@gmail.com",
+                    "role": "Developer"
                 }
             ],
             "description": "EasyRdf is a PHP library designed to make it easy to consume and produce RDF.",
@@ -3578,12 +3651,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ifsnop/mysqldump-php.git",
-                "reference": "0ca7b7f06c4a669a0167ef40e1d72f82153a9130"
+                "reference": "7d5e521d73dbba624d8df029ed9f577d6608250f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ifsnop/mysqldump-php/zipball/0ca7b7f06c4a669a0167ef40e1d72f82153a9130",
-                "reference": "0ca7b7f06c4a669a0167ef40e1d72f82153a9130",
+                "url": "https://api.github.com/repos/ifsnop/mysqldump-php/zipball/7d5e521d73dbba624d8df029ed9f577d6608250f",
+                "reference": "7d5e521d73dbba624d8df029ed9f577d6608250f",
                 "shasum": ""
             },
             "require": {
@@ -3606,8 +3679,8 @@
             "authors": [
                 {
                     "name": "Diego Torres",
-                    "role": "Developer",
-                    "homepage": "https://github.com/ifsnop"
+                    "homepage": "https://github.com/ifsnop",
+                    "role": "Developer"
                 }
             ],
             "description": "PHP version of mysqldump cli that comes with MySQL",
@@ -3625,7 +3698,7 @@
                 "php5",
                 "sql"
             ],
-            "time": "2019-08-05T15:11:57+00:00"
+            "time": "2019-10-29T23:35:56+00:00"
         },
         {
             "name": "jakub-onderka/php-console-color",
@@ -3762,9 +3835,9 @@
             "authors": [
                 {
                     "name": "Phil Bennett",
-                    "role": "Developer",
                     "email": "philipobenito@gmail.com",
-                    "homepage": "http://www.philipobenito.com"
+                    "homepage": "http://www.philipobenito.com",
+                    "role": "Developer"
                 }
             ],
             "description": "A fast and intuitive dependency injection container.",
@@ -3907,12 +3980,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/finder.git",
-                "reference": "0dd12632325cf2ba9aa523a7f0d586ff79279841"
+                "reference": "8e81d351c397a0c0d3a8541ee9199665f9c075b7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/finder/zipball/0dd12632325cf2ba9aa523a7f0d586ff79279841",
-                "reference": "0dd12632325cf2ba9aa523a7f0d586ff79279841",
+                "url": "https://api.github.com/repos/nette/finder/zipball/8e81d351c397a0c0d3a8541ee9199665f9c075b7",
+                "reference": "8e81d351c397a0c0d3a8541ee9199665f9c075b7",
                 "shasum": ""
             },
             "require": {
@@ -3921,6 +3994,7 @@
             },
             "require-dev": {
                 "nette/tester": "^2.2",
+                "phpstan/phpstan": "^0.12",
                 "tracy/tracy": "^2.6"
             },
             "type": "library",
@@ -3958,7 +4032,7 @@
                 "iterator",
                 "nette"
             ],
-            "time": "2019-07-16T16:31:42+00:00"
+            "time": "2019-12-11T19:43:13+00:00"
         },
         {
             "name": "nette/utils",
@@ -4228,18 +4302,18 @@
             "authors": [
                 {
                     "name": "Greg Beaver",
-                    "role": "Helper",
-                    "email": "cellog@php.net"
+                    "email": "cellog@php.net",
+                    "role": "Helper"
                 },
                 {
                     "name": "Andrei Zmievski",
-                    "role": "Lead",
-                    "email": "andrei@php.net"
+                    "email": "andrei@php.net",
+                    "role": "Lead"
                 },
                 {
                     "name": "Stig Bakken",
-                    "role": "Developer",
-                    "email": "stig@php.net"
+                    "email": "stig@php.net",
+                    "role": "Developer"
                 }
             ],
             "description": "More info available on: http://pear.php.net/package/Console_Getopt",
@@ -4282,8 +4356,8 @@
             "authors": [
                 {
                     "name": "Christian Weiske",
-                    "role": "Lead",
-                    "email": "cweiske@php.net"
+                    "email": "cweiske@php.net",
+                    "role": "Lead"
                 }
             ],
             "description": "Minimal set of PEAR core files to be used as composer dependency",
@@ -6265,19 +6339,19 @@
             "authors": [
                 {
                     "name": "Fabien Potencier",
-                    "role": "Lead Developer",
                     "email": "fabien@symfony.com",
-                    "homepage": "http://fabien.potencier.org"
+                    "homepage": "http://fabien.potencier.org",
+                    "role": "Lead Developer"
                 },
                 {
                     "name": "Twig Team",
-                    "role": "Contributors",
-                    "homepage": "https://twig.symfony.com/contributors"
+                    "homepage": "https://twig.symfony.com/contributors",
+                    "role": "Contributors"
                 },
                 {
                     "name": "Armin Ronacher",
-                    "role": "Project Founder",
-                    "email": "armin.ronacher@active-4.com"
+                    "email": "armin.ronacher@active-4.com",
+                    "role": "Project Founder"
                 }
             ],
             "description": "Twig, the flexible, fast, and secure template language for PHP",
@@ -6954,22 +7028,22 @@
         },
         {
             "name": "behat/mink-selenium2-driver",
-            "version": "dev-master",
+            "version": "1.3.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/minkphp/MinkSelenium2Driver.git",
-                "reference": "8684ee4e634db7abda9039ea53545f86fc1e105a"
+                "reference": "0a09c4341621fca937a726827611b20ce3e2c259"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/minkphp/MinkSelenium2Driver/zipball/8684ee4e634db7abda9039ea53545f86fc1e105a",
-                "reference": "8684ee4e634db7abda9039ea53545f86fc1e105a",
+                "url": "https://api.github.com/repos/minkphp/MinkSelenium2Driver/zipball/0a09c4341621fca937a726827611b20ce3e2c259",
+                "reference": "0a09c4341621fca937a726827611b20ce3e2c259",
                 "shasum": ""
             },
             "require": {
                 "behat/mink": "~1.7@dev",
                 "instaclick/php-webdriver": "~1.1",
-                "php": ">=5.3.1"
+                "php": ">=5.4"
             },
             "require-dev": {
                 "mink/driver-testsuite": "dev-master"
@@ -6991,14 +7065,14 @@
             ],
             "authors": [
                 {
-                    "name": "Konstantin Kudryashov",
-                    "email": "ever.zet@gmail.com",
-                    "homepage": "http://everzet.com"
-                },
-                {
                     "name": "Pete Otaqui",
                     "email": "pete@otaqui.com",
                     "homepage": "https://github.com/pete-otaqui"
+                },
+                {
+                    "name": "Konstantin Kudryashov",
+                    "email": "ever.zet@gmail.com",
+                    "homepage": "http://everzet.com"
                 }
             ],
             "description": "Selenium2 (WebDriver) driver for Mink framework",
@@ -7011,7 +7085,7 @@
                 "testing",
                 "webdriver"
             ],
-            "time": "2018-10-10T12:39:06+00:00"
+            "time": "2019-09-02T09:46:54+00:00"
         },
         {
             "name": "doctrine/instantiator",
@@ -7201,13 +7275,13 @@
             "authors": [
                 {
                     "name": "Justin Bishop",
-                    "role": "Developer",
-                    "email": "jubishop@gmail.com"
+                    "email": "jubishop@gmail.com",
+                    "role": "Developer"
                 },
                 {
                     "name": "Anthon Pang",
-                    "role": "Fork Maintainer",
-                    "email": "apang@softwaredevelopment.ca"
+                    "email": "apang@softwaredevelopment.ca",
+                    "role": "Fork Maintainer"
                 }
             ],
             "description": "PHP WebDriver for Selenium 2",
@@ -7439,8 +7513,8 @@
             "authors": [
                 {
                     "name": "Frank Kleine",
-                    "role": "Developer",
-                    "homepage": "http://frankkleine.de/"
+                    "homepage": "http://frankkleine.de/",
+                    "role": "Developer"
                 }
             ],
             "description": "Virtual file system to mock the real file system in unit tests.",
@@ -7533,18 +7607,18 @@
             "authors": [
                 {
                     "name": "Arne Blankerts",
-                    "role": "Developer",
-                    "email": "arne@blankerts.de"
+                    "email": "arne@blankerts.de",
+                    "role": "Developer"
                 },
                 {
                     "name": "Sebastian Heuer",
-                    "role": "Developer",
-                    "email": "sebastian@phpeople.de"
+                    "email": "sebastian@phpeople.de",
+                    "role": "Developer"
                 },
                 {
                     "name": "Sebastian Bergmann",
-                    "role": "Developer",
-                    "email": "sebastian@phpunit.de"
+                    "email": "sebastian@phpunit.de",
+                    "role": "Developer"
                 }
             ],
             "description": "Component for reading phar.io manifest information from a PHP Archive (PHAR)",
@@ -7580,18 +7654,18 @@
             "authors": [
                 {
                     "name": "Arne Blankerts",
-                    "role": "Developer",
-                    "email": "arne@blankerts.de"
+                    "email": "arne@blankerts.de",
+                    "role": "Developer"
                 },
                 {
                     "name": "Sebastian Heuer",
-                    "role": "Developer",
-                    "email": "sebastian@phpeople.de"
+                    "email": "sebastian@phpeople.de",
+                    "role": "Developer"
                 },
                 {
                     "name": "Sebastian Bergmann",
-                    "role": "Developer",
-                    "email": "sebastian@phpunit.de"
+                    "email": "sebastian@phpunit.de",
+                    "role": "Developer"
                 }
             ],
             "description": "Library for handling version information and constraints",
@@ -7862,8 +7936,8 @@
             "authors": [
                 {
                     "name": "Sebastian Bergmann",
-                    "role": "lead",
-                    "email": "sebastian@phpunit.de"
+                    "email": "sebastian@phpunit.de",
+                    "role": "lead"
                 }
             ],
             "description": "Library that provides collection, processing, and rendering functionality for PHP code coverage information.",
@@ -7910,8 +7984,8 @@
             "authors": [
                 {
                     "name": "Sebastian Bergmann",
-                    "role": "lead",
-                    "email": "sb@sebastian-bergmann.de"
+                    "email": "sb@sebastian-bergmann.de",
+                    "role": "lead"
                 }
             ],
             "description": "FilterIterator implementation that filters files based on a list of suffixes.",
@@ -7952,8 +8026,8 @@
             "authors": [
                 {
                     "name": "Sebastian Bergmann",
-                    "role": "lead",
-                    "email": "sebastian@phpunit.de"
+                    "email": "sebastian@phpunit.de",
+                    "role": "lead"
                 }
             ],
             "description": "Simple template engine.",
@@ -8001,8 +8075,8 @@
             "authors": [
                 {
                     "name": "Sebastian Bergmann",
-                    "role": "lead",
-                    "email": "sb@sebastian-bergmann.de"
+                    "email": "sb@sebastian-bergmann.de",
+                    "role": "lead"
                 }
             ],
             "description": "Utility class for timing",
@@ -8132,8 +8206,8 @@
             "authors": [
                 {
                     "name": "Sebastian Bergmann",
-                    "role": "lead",
-                    "email": "sebastian@phpunit.de"
+                    "email": "sebastian@phpunit.de",
+                    "role": "lead"
                 }
             ],
             "description": "The PHP Unit Testing framework.",
@@ -8756,8 +8830,8 @@
             "authors": [
                 {
                     "name": "Sebastian Bergmann",
-                    "role": "lead",
-                    "email": "sebastian@phpunit.de"
+                    "email": "sebastian@phpunit.de",
+                    "role": "lead"
                 }
             ],
             "description": "Library that helps with managing the version number of Git-hosted PHP projects",
@@ -9086,8 +9160,8 @@
             "authors": [
                 {
                     "name": "Arne Blankerts",
-                    "role": "Developer",
-                    "email": "arne@blankerts.de"
+                    "email": "arne@blankerts.de",
+                    "role": "Developer"
                 }
             ],
             "description": "A small library for converting tokenized PHP source code into XML and potentially other formats",
@@ -9129,6 +9203,7 @@
                 "GPL-2.0-or-later"
             ],
             "description": "require-dev dependencies from drupal/core",
+            "abandoned": "drupal/core-dev",
             "time": "2019-08-07T19:31:42+00:00"
         }
     ],
